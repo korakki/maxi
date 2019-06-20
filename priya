@@ -1,0 +1,6 @@
+strg=input()
+l=[]
+for char in strg:
+    if char not in l:
+        l.append(char)
+print(len(l))
